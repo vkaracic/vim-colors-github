@@ -463,6 +463,15 @@ hi link clojureDefine Type
 hi link clojureKeyword Identifier
 hi link clojureMacro ghPurple
 
+" nvim-treesitter
+hi link TSConstBuiltin Constant
+hi link TSStringRegex SpecialChar
+hi link TSStringEscape Character
+hi link TSFuncBuiltin Function
+hi link TSConstructor Typedef
+hi link TSVariableBuiltin Identifier
+hi link TSURI Tag
+
 " }}}
 
 " Plugin Support {{{
